@@ -36,15 +36,28 @@ export default function Navbar() {
         >
           SV.
         </a>
-        <div className="hidden md:flex gap-10 text-sm font-medium tracking-widest uppercase text-[#b0bec5]">
+        <div className="hidden md:flex items-center gap-8 text-sm font-medium tracking-widest uppercase text-[#b0bec5]">
           <a href="#work" className="hover:text-white transition-colors duration-200">
             Work
           </a>
-          <a href="#about" className="hover:text-white transition-colors duration-200">
-            About
+          <a href="#achievements" className="hover:text-white transition-colors duration-200">
+            Achievements
+          </a>
+          <a href="#leadership" className="hover:text-white transition-colors duration-200">
+            Leadership
           </a>
           <a href="#contact" className="hover:text-white transition-colors duration-200">
             Contact
+          </a>
+          <a
+            href="/certificates/2-Column resume .pdf"
+            download
+            className="flex items-center gap-2 border border-white/20 text-white text-xs px-4 py-2 rounded-full hover:bg-white/10 hover:border-white/40 transition-all duration-300"
+          >
+            <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+            </svg>
+            Resume
           </a>
         </div>
       </div>

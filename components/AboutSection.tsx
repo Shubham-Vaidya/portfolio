@@ -51,6 +51,19 @@ export default function AboutSection() {
               Currently exploring Data Structures &amp; Algorithms, MySQL, and open-source
               contributions. Always looking for the next hard problem to solve.
             </p>
+            {/* Download Resume CTA */}
+            <div className="mt-8 relative z-10">
+              <a
+                href="/certificates/2-Column resume .pdf"
+                download
+                className="inline-flex items-center gap-3 bg-white text-[#050a14] font-medium tracking-wide px-6 py-3 rounded-full hover:bg-[#b0bec5] transition-colors duration-300 text-sm"
+              >
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                </svg>
+                Download Resume
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>

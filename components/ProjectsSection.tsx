@@ -13,16 +13,16 @@ interface Project {
 const projects: Project[] = [
   {
     title: "TrafficGuard AI",
-    tag: "React · Firebase · Leaflet.js",
+    tag: "React · Firebase · Google Maps API",
     description:
-      "Smart traffic and accident management system. Real-time incident reporting with location, photo proof, live map visualization, and emergency alerts. Built for GDG Build for Chaos hackathon.",
+      "Real-time traffic incident reporting platform with live map visualization and emergency alert system. Built for GDG Build for Chaos hackathon.",
     badge: "Hackathon Project",
   },
   {
     title: "StyleSync AI",
-    tag: "React · Flask · Python · Firebase",
+    tag: "React · Node.js · Firebase · Python Flask",
     description:
-      "AI-powered virtual fashion try-on platform. Upload your image, visualize outfits using PIL-based image compositing, and get style recommendations. Built during GDG hackathon.",
+      "AI-powered virtual fashion try-on platform. Upload your image, visualize outfits using PIL-based image compositing, and get style recommendations. Built during a GDG hackathon.",
     badge: "AI · First Hackathon",
   },
   {

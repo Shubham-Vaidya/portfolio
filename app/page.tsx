@@ -4,6 +4,10 @@ import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
 import ContactSection from "@/components/ContactSection";
+import CertificationsSection from "@/components/CertificationsSection";
+import LeadershipSection from "@/components/LeadershipSection";
+import CodingProfilesSection from "@/components/CodingProfilesSection";
+import CertificatesGallery from "@/components/CertificatesGallery";
 
 export default function Home() {
   return (
@@ -15,7 +19,11 @@ export default function Home() {
       <HeroStats />
       <AboutSection />
       <ProjectsSection />
+      <CertificationsSection />
+      <LeadershipSection />
       <SkillsSection />
+      <CodingProfilesSection />
+      <CertificatesGallery />
       <ContactSection />
     </main>
   );
