@@ -69,7 +69,7 @@ export default function LeadershipSection() {
                   className="font-display uppercase text-white leading-tight mb-3"
                   style={{ fontSize: "clamp(1.5rem, 3vw, 2.2rem)", letterSpacing: "0.04em" }}
                 >
-                  Technical Co-Head
+                  CSI Technical Co-Head
                 </h3>
 
                 <p className="text-[#b0bec5]/60 text-xs tracking-[0.15em] uppercase font-medium mb-1">
